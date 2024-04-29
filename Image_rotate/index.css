@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.img {
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    border-radius: 10px;
+    padding: 20px;
+    border: 10px solid white;
+}
+
+
+.btn-grp {
+    position: fixed;
+    bottom: 15%;
+    left: 40%;
+}
+
+.btn {
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 4px 4px 0px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn:active {
+    background-color: white;
+    color: black;
+}
+
