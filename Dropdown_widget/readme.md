@@ -13,6 +13,9 @@ This project consists of a dropdown widget implemented in HTML, CSS, and JavaScr
 - Spin dropdown menu
 - Close the tab/window
 
+## Screenshot
+![alt text](image.png)
+
 ## Usage
 
 1. Clone the repository:
