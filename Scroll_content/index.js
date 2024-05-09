@@ -15,8 +15,8 @@ const callback = (entries, observer) => {
             content.style.transform = 'rotate(360deg)';
             content.style.opacity = '0';
         }
-    })
-}
+    });
+};
 
 const observer = new IntersectionObserver(callback, options);
 
