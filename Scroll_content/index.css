@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section:nth-child(1)
+{
+    background-color: rgb(176, 219, 226);
+}
+
+.section:nth-child(2)
+{
+    background-color: rgb(179, 226, 176);
+}
+
+
+.section:nth-child(3)
+{
+    background-color: rgb(226, 176, 221);
+}
+
+p.content {
+    width: 40%;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 1px rgba(128, 128, 128, 0.371);
+    font-weight: 800;
+    opacity: 0;
+    transform: rotate(360deg);
+    transition: opacity 1s, transform 1s;
+}
