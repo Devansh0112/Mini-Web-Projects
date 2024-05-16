@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content form {
+    position: relative;
+    padding: 50px;
+    z-index: 0;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+
+.main-content #shadow {
+    border-radius: 10px;
+    height: 300px;
+    width: 550px;
+    background-color: orange;
+    position: absolute;
+    left: 217px; /* 769px for right side*/
+}
+
+.small-links {
+    cursor: pointer;
+    border-bottom: 0.5px solid blue;
+    color: blue;
+}

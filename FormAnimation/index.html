@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Form Animation</title>
+</head>
+<body>
+    <section class="main-content">
+        <form method="post">
+            <h1 class="heading">
+                Sign Up
+            </h1>
+            <label for="email">
+                Email
+            </label>
+            <input type="text" name="email" id="email" required>
+    
+            <label for="password">
+                Password
+            </label>
+            <input type="password" name="password" id="password" required>
+            <fieldset>
+              <legend>Do you want us to remember next time you sign in?</legend>
+              <label><input type="radio" name="radio" value="yes" /> Yes</label>
+              <label><input type="radio" name="radio" value="no" /> No</label>
+            </fieldset>
+            <input type="button" value="Submit">
+            <small>Already have an account? <span class="small-links" id="already-have-account">Log In!</span></small>
+          </form>
+        <form method="post">
+            <h1 class="heading">
+                Log In
+            </h1>
+            <label for="email">
+                Email
+            </label>
+            <input type="text" name="email" id="email" required>
+    
+            <label for="password">
+                Password
+            </label>
+            <input type="password" name="password" id="password" required>
+            <fieldset>
+              <legend>Do you want us to remember next time you sign in?</legend>
+              <label><input type="radio" name="radio" value="yes" /> Yes</label>
+              <label><input type="radio" name="radio" value="no" /> No</label>
+            </fieldset>
+            <input type="button" value="Submit">
+            <small>New User? <span class="small-links" id="create-account-btn">Create Account</span></small>
+          </form>
+          <div id="shadow">
+            <!-- just used to cover one side -->
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
